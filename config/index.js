@@ -6,16 +6,16 @@ export const USER_CONFIG = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "wxa7ef5088cb873e03",
+  APP_ID: "",
   
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "85daa27252c4cfe99926a3c233ae012c",
+  APP_SECRET: "",
   
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: false,
+  IS_SHOW_COLOR: true,
   
   // 功能开关,打开：true，关闭：false
   SWITCH: {
@@ -85,9 +85,9 @@ export const USER_CONFIG = {
         // 在一起的日子
         {"keyword": "love_day", date: "2022-09-08"},
         // 结婚纪念日
-        {"keyword": "marry_day", date: "2022-09-09"},
+//         {"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
+//         {"keyword": "ex_day", date: "2022-09-10"},
       ]
     }
     // 你可以不断按格式往下增加
@@ -99,7 +99,7 @@ export const USER_CONFIG = {
    */
   
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "QV7kVk9KLYLx403OVlofJ99JsjCliIUPXuOciAC9XDs",
   
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -145,7 +145,7 @@ export const USER_CONFIG = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09", isShowAge: true}
+    {"type": "*生日", "name": "老婆", "year": "1997", "date": "09-09", isShowAge: true}
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -165,11 +165,11 @@ export const USER_CONFIG = {
    * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-09-08"},
+    {"keyword": "love_day", date: "2020-06-01"},
     // 结婚纪念日
-    {"keyword": "marry_day", date: "2022-09-09"},
+//     {"keyword": "marry_day", date: "2022-09-09"},
     // 退伍日
-    {"keyword": "ex_day", date: "2022-09-10"},
+//     {"keyword": "ex_day", date: "2022-09-10"},
     // 你可以不断按格式往下增加
     // ...
   ],
