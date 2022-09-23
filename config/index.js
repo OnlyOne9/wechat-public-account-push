@@ -66,9 +66,9 @@ export const USER_CONFIG = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "G81oaMZEdocV5IpWANHAfwKmkHS2gIv_wBtOOEEXE1k",
       // 所在省份
-      province: "上海",
+      province: "新疆维吾尔自治区",
       // 所在城市
-      city: "上海市",
+      city: "塔城地区",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '10-02',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -120,7 +120,7 @@ export const USER_CONFIG = {
   /** 天气相关 */
   
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "新疆",
+  PROVINCE: "新疆维吾尔自治区",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
   CITY: "塔城地区",
   
@@ -145,11 +145,7 @@ export const USER_CONFIG = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09", isShowAge: true},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-    // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09", isShowAge: true}
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -159,7 +155,7 @@ export const USER_CONFIG = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 0,
   
   /** 日期相关 */
   
@@ -186,7 +182,7 @@ export const USER_CONFIG = {
    * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+//     {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
         "因为太喜欢你，所以看谁都像是情敌。",
