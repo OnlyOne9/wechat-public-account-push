@@ -60,7 +60,7 @@ export const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "小赵同学",
+      name: "宝贝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ofnMj52_a83k1Aqn59un98tQh0-8",
       // 你想对他发送的模板消息的模板ID
@@ -78,12 +78,12 @@ export const USER_CONFIG = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "老婆", "year": "1997", "date": "10-02"}
+        {"type": "*生日", "name": "宝贝", "year": "1997", "date": "10-02"}
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2020-06-01"},
+        {"keyword": "love_day", date: "2019-06-01"},
         // 结婚纪念日
 //         {"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
@@ -115,7 +115,7 @@ export const USER_CONFIG = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2020-06-01"},
+        {"keyword": "love_day", date: "2019-06-01"},
         // 结婚纪念日
 //         {"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
@@ -152,9 +152,9 @@ export const USER_CONFIG = {
   /** 天气相关 */
   
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "新疆维吾尔自治区",
+  PROVINCE: "",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "塔城地区",
+  CITY: "",
   
   /** 重要节日相关 */
   
@@ -177,7 +177,7 @@ export const USER_CONFIG = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "老婆", "year": "1997", "date": "09-09", isShowAge: true}
+    {"type": "*生日", "name": "宝贝", "year": "1997", "date": "10-02", isShowAge: true}
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -197,7 +197,7 @@ export const USER_CONFIG = {
    * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2020-06-01"},
+    {"keyword": "love_day", date: "2019-06-01"},
     // 结婚纪念日
 //     {"keyword": "marry_day", date: "2022-09-09"},
     // 退伍日
