@@ -62,8 +62,8 @@ export const USER_CONFIG = {
       // 想要发送的人的名字
       name: "宝贝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      // id: "ofnMj52bMlAKasWZ0lRhYkvxxkDY",
-      id:"ofnMj52_a83k1Aqn59un98tQh0-8",
+      id: "ofnMj52bMlAKasWZ0lRhYkvxxkDY",
+      // id:"ofnMj52_a83k1Aqn59un98tQh0-8",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "GuI05pqqWbGC5K33271RFaBcl-ncOtyx-Rr6-PSBsaU",
       // 所在省份
@@ -71,7 +71,7 @@ export const USER_CONFIG = {
       province: "河南",
       // 所在城市
       // city: "塔城",
-      city: "漯河临颍",
+      city: "漯河",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '10-02',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
